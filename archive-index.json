@@ -1,16 +1,32 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-17T16:55:30.117Z",
+  "generatedAt": "2026-11-17T22:55:10.483Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 173,
+    "claims": 174,
     "documented": 38,
-    "sources": 570,
-    "citedSources": 310,
+    "sources": 571,
+    "citedSources": 311,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0224",
+      "numId": 224,
+      "filename": "C-0224-cloud-seeding-programs-usa.md",
+      "title": "Cloud seeding programs in the USA",
+      "domain": "Environmental",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0654"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0221",
       "numId": 221,
@@ -3135,6 +3151,20 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0654",
+      "numId": 654,
+      "filename": "S-0654-wyoming-weather-modification.md",
+      "title": "Wyoming Weather Modification Program",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "Wyoming State Government",
+      "dateOfObject": "2023",
+      "verifyAt": "https://www.wyoming.gov/CloudSeeding",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0651",
       "numId": 651,
