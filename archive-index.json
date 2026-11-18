@@ -1,16 +1,56 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-17T22:55:10.483Z",
+  "generatedAt": "2026-11-18T22:55:22.515Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 174,
+    "claims": 176,
     "documented": 38,
-    "sources": 571,
-    "citedSources": 311,
+    "sources": 575,
+    "citedSources": 315,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0226",
+      "numId": 226,
+      "filename": "C-0226-foundling-hospital-records-availability.md",
+      "title": "Foundling Hospital Records Availability",
+      "domain": "Orphan History",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0657",
+        "S-0658"
+      ],
+      "related": [
+        "C-0081",
+        "C-0158"
+      ],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0225",
+      "numId": 225,
+      "filename": "C-0225-orphan-train-census-records.md",
+      "title": "Orphan Train Census Records Gaps",
+      "domain": "Orphan History",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0655",
+        "S-0656"
+      ],
+      "related": [
+        "C-0080",
+        "C-0157"
+      ],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0224",
       "numId": 224,
@@ -3151,6 +3191,62 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0658",
+      "numId": 658,
+      "filename": "S-0658-foundling-hospital-reports.md",
+      "title": "Foundling Hospital Reports",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "Foundling Hospital Archives",
+      "dateOfObject": "~19th century",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0657",
+      "numId": 657,
+      "filename": "S-0657-foundling-hospital-london-records.md",
+      "title": "Foundling Hospital London Records",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "The National Archives",
+      "dateOfObject": "~1739-1950",
+      "verifyAt": "https://www.nationalarchives.gov.uk/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0656",
+      "numId": 656,
+      "filename": "S-0656-new-york-foundling-hospital-records.md",
+      "title": "New York Foundling Hospital Records",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "New York Foundling Hospital",
+      "dateOfObject": "~1854-1929",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0655",
+      "numId": 655,
+      "filename": "S-0655-1880-census-records.md",
+      "title": "1880 Census Records",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "National Archives",
+      "dateOfObject": "1880",
+      "verifyAt": "https://www.archives.gov/research/census",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0654",
       "numId": 654,
