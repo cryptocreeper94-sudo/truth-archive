@@ -1,16 +1,50 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-19T04:55:16.172Z",
+  "generatedAt": "2026-11-19T10:55:29.514Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 177,
+    "claims": 179,
     "documented": 39,
-    "sources": 577,
-    "citedSources": 317,
+    "sources": 581,
+    "citedSources": 321,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0229",
+      "numId": 229,
+      "filename": "C-0229-sealed-basement-windows-evidence.md",
+      "title": "Sealed Basement Windows as Indicators of Historical Changes",
+      "domain": "Reset Evidence",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0663",
+        "S-0664"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0228",
+      "numId": 228,
+      "filename": "C-0228-buried-ground-floors-evidence.md",
+      "title": "Buried Ground Floors as Evidence of Past Civilizations",
+      "domain": "Reset Evidence",
+      "confidence": "SPECULATIVE",
+      "verification": "blocked",
+      "verifiedOn": "",
+      "sources": [
+        "S-0661",
+        "S-0662"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0227",
       "numId": 227,
@@ -3211,6 +3245,62 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0664",
+      "numId": 664,
+      "filename": "S-0664-london-victorian-houses.md",
+      "title": "Victorian House Surveys in London",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "Museum of London",
+      "dateOfObject": "1885",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0663",
+      "numId": 663,
+      "filename": "S-0663-boston-architectural-records.md",
+      "title": "Boston Architectural Records",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "Boston City Archives",
+      "dateOfObject": "1890",
+      "verifyAt": "https://www.boston.gov/archives",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0662",
+      "numId": 662,
+      "filename": "S-0662-archaeological-survey-ur.md",
+      "title": "Archaeological Survey of Ur",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "British Museum",
+      "dateOfObject": "~2000",
+      "verifyAt": "https://www.britishmuseum.org/ur",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0661",
+      "numId": 661,
+      "filename": "S-0661-pompeii-excavation-records.md",
+      "title": "Excavation Records from Pompeii",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "National Archaeological Museum of Naples",
+      "dateOfObject": "~79",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0660",
       "numId": 660,
