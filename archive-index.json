@@ -1,16 +1,36 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-18T22:55:22.515Z",
+  "generatedAt": "2026-11-19T04:55:16.172Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 176,
-    "documented": 38,
-    "sources": 575,
-    "citedSources": 315,
+    "claims": 177,
+    "documented": 39,
+    "sources": 577,
+    "citedSources": 317,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0227",
+      "numId": 227,
+      "filename": "C-0227-chicago-worlds-fair-construction-methods.md",
+      "title": "Construction Methods of the 1893 Chicago World's Fair",
+      "domain": "World Fairs",
+      "confidence": "DOCUMENTED",
+      "verification": "verified",
+      "verifiedOn": "2026-11-19",
+      "sources": [
+        "S-0659",
+        "S-0660"
+      ],
+      "related": [
+        "C-0083",
+        "C-0084"
+      ],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0226",
       "numId": 226,
@@ -3191,6 +3211,34 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0660",
+      "numId": 660,
+      "filename": "S-0660-white-city-photographic-documentation.md",
+      "title": "Photographic Documentation of the White City",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Library of Congress",
+      "dateOfObject": "1893",
+      "verifyAt": "https://www.loc.gov",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0659",
+      "numId": 659,
+      "filename": "S-0659-chicago-worlds-fair-construction-report.md",
+      "title": "1893 Chicago World's Fair Construction Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "Chicago Historical Society",
+      "dateOfObject": "1893",
+      "verifyAt": "https://www.chicagohistory.org",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0658",
       "numId": 658,
