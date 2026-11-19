@@ -1,16 +1,64 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-19T10:55:29.514Z",
+  "generatedAt": "2026-11-19T16:55:18.149Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 179,
+    "claims": 182,
     "documented": 39,
-    "sources": 581,
-    "citedSources": 321,
+    "sources": 584,
+    "citedSources": 324,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0232",
+      "numId": 232,
+      "filename": "C-0232-antikythera-mechanism.md",
+      "title": "Antikythera Mechanism Cataloging",
+      "domain": "Suppressed Finds",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0667"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0231",
+      "numId": 231,
+      "filename": "C-0231-ica-stones.md",
+      "title": "Ica Stones and Their Cataloging",
+      "domain": "Suppressed Finds",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0666"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0230",
+      "numId": 230,
+      "filename": "C-0230-acamparo-figurines.md",
+      "title": "Acámbaro Figurines and Their Institutional Cataloging",
+      "domain": "Suppressed Finds",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0665"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0229",
       "numId": 229,
@@ -3245,6 +3293,48 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0667",
+      "numId": 667,
+      "filename": "S-0667-antikythera-mechanism-source.md",
+      "title": "Antikythera Mechanism",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "National Archaeological Museum",
+      "dateOfObject": "1901",
+      "verifyAt": "",
+      "imageUrl": "https://commons.wikimedia.org/wiki/File:Antikythera_Mechanism.jpg",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0666",
+      "numId": 666,
+      "filename": "S-0666-ica-stones-source.md",
+      "title": "Ica Stones Collection",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "Museo de Ica",
+      "dateOfObject": "1960s",
+      "verifyAt": "",
+      "imageUrl": "https://commons.wikimedia.org/wiki/File:Ica_Stones.jpg",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0665",
+      "numId": 665,
+      "filename": "S-0665-acamparo-figurines-source.md",
+      "title": "Acámbaro Figurines Collection",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "Museo de Acámbaro",
+      "dateOfObject": "1940s",
+      "verifyAt": "",
+      "imageUrl": "https://commons.wikimedia.org/wiki/File:Acamparo_Figurines.jpg",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0664",
       "numId": 664,
