@@ -1,16 +1,67 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-19T16:55:18.149Z",
+  "generatedAt": "2026-11-19T22:55:34.017Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 182,
+    "claims": 185,
     "documented": 39,
-    "sources": 584,
-    "citedSources": 324,
+    "sources": 590,
+    "citedSources": 330,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0235",
+      "numId": 235,
+      "filename": "C-0235-nag-hammadi-library-manuscript-tradition.md",
+      "title": "Nag Hammadi Library Manuscript Tradition",
+      "domain": "Ancient Texts",
+      "confidence": "SPECULATIVE",
+      "verification": "blocked",
+      "verifiedOn": "",
+      "sources": [
+        "S-0672",
+        "S-0673"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0234",
+      "numId": 234,
+      "filename": "C-0234-book-of-jasher-manuscript-tradition.md",
+      "title": "Book of Jasher Manuscript Tradition",
+      "domain": "Ancient Texts",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0670",
+        "S-0671"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0233",
+      "numId": 233,
+      "filename": "C-0233-book-of-enoch-manuscript-tradition.md",
+      "title": "Book of Enoch Manuscript Tradition",
+      "domain": "Ancient Texts",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0668",
+        "S-0669"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0232",
       "numId": 232,
@@ -3293,6 +3344,90 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0673",
+      "numId": 673,
+      "filename": "S-0673-gospel-of-thomas-hidden-sayings.md",
+      "title": "The Gospel of Thomas: The Hidden Sayings of Jesus",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "The British Museum",
+      "dateOfObject": "1945",
+      "verifyAt": "https://www.britishmuseum.org/collection/object/Y_EA85708",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0672",
+      "numId": 672,
+      "filename": "S-0672-nag-hammadi-scriptures.md",
+      "title": "The Nag Hammadi Scriptures",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Harvard University Press",
+      "dateOfObject": "~350 CE",
+      "verifyAt": "https://www.hup.harvard.edu/catalog.php?isbn=9780674011645",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0671",
+      "numId": 671,
+      "filename": "S-0671-the-book-of-jasher-original-edition.md",
+      "title": "The Book of Jasher: The Original Book of Jasher",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "University of California",
+      "dateOfObject": "1887",
+      "verifyAt": "https://www.library.ucsf.edu/collections/book-of-jasher/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0670",
+      "numId": 670,
+      "filename": "S-0670-book-of-jasher-translated-by-hm-chanan.md",
+      "title": "Book of Jasher (Translated by H. M. Chanan)",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "British Library",
+      "dateOfObject": "1840",
+      "verifyAt": "https://www.bl.uk/collection-items/book-of-jasher",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0669",
+      "numId": 669,
+      "filename": "S-0669-the-dead-sea-scrolls-a-new-translation.md",
+      "title": "The Dead Sea Scrolls: A New Translation",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Yale University Press",
+      "dateOfObject": "1955-1956",
+      "verifyAt": "https://www.yale.edu/press/catalog/enoch.html",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0668",
+      "numId": 668,
+      "filename": "S-0668-the-book-of-enoch-ethiopic-version.md",
+      "title": "The Book of Enoch (Ethiopic Version)",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "British Library",
+      "dateOfObject": "~300 BCE",
+      "verifyAt": "https://www.bl.uk/collection-items/book-of-enoch",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0667",
       "numId": 667,
