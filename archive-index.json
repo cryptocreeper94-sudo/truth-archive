@@ -1,16 +1,68 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-20T04:55:16.019Z",
+  "generatedAt": "2026-11-20T10:55:22.806Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 186,
-    "documented": 39,
-    "sources": 592,
-    "citedSources": 332,
+    "claims": 189,
+    "documented": 40,
+    "sources": 595,
+    "citedSources": 335,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0240",
+      "numId": 240,
+      "filename": "C-0240-linguistic-diversification-babel.md",
+      "title": "Linguistic Diversification and the Tower of Babel Narrative",
+      "domain": "Etymology",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0680"
+      ],
+      "related": [
+        "C-0041"
+      ],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0239",
+      "numId": 239,
+      "filename": "C-0239-assyria-asshur-connection.md",
+      "title": "The Connection between Assyria and Asshur",
+      "domain": "Etymology",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0679"
+      ],
+      "related": [
+        "C-0040"
+      ],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0238",
+      "numId": 238,
+      "filename": "C-0238-hebrew-name-meanings.md",
+      "title": "Hebrew Name Meanings and Their Etymology",
+      "domain": "Etymology",
+      "confidence": "DOCUMENTED",
+      "verification": "verified",
+      "verifiedOn": "2026-11-20",
+      "sources": [
+        "S-0678"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0237",
       "numId": 237,
@@ -3361,6 +3413,48 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0680",
+      "numId": 680,
+      "filename": "S-0680-book-of-genesis-tanakh.md",
+      "title": "The Book of Genesis (Tanakh)",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Jewish Publication Society",
+      "dateOfObject": "~5th century BCE",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0679",
+      "numId": 679,
+      "filename": "S-0679-assyrian-empire-historical-overview.md",
+      "title": "The Assyrian Empire: A Historical Overview",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "The Metropolitan Museum of Art",
+      "dateOfObject": "1980",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0678",
+      "numId": 678,
+      "filename": "S-0678-hebrew-bible-aleppo-codex.md",
+      "title": "The Hebrew Bible (Tanakh) - Aleppo Codex",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Various editions, including the Aleppo Codex",
+      "dateOfObject": "~10th century CE",
+      "verifyAt": "https://www.bl.uk/collection-items/the-aleppo-codex",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0677",
       "numId": 677,
