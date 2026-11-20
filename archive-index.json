@@ -1,16 +1,33 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-19T22:55:34.017Z",
+  "generatedAt": "2026-11-20T04:55:16.019Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 185,
+    "claims": 186,
     "documented": 39,
-    "sources": 590,
-    "citedSources": 330,
+    "sources": 592,
+    "citedSources": 332,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0237",
+      "numId": 237,
+      "filename": "C-0237-babylonian-atrahasis-flood-narrative.md",
+      "title": "Babylonian Atrahasis Flood Narrative",
+      "domain": "Flood Narratives",
+      "confidence": "SPECULATIVE",
+      "verification": "blocked",
+      "verifiedOn": "",
+      "sources": [
+        "S-0676",
+        "S-0677"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0235",
       "numId": 235,
@@ -3344,6 +3361,34 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0677",
+      "numId": 677,
+      "filename": "S-0677-epic-of-gilgamesh-atlantic.md",
+      "title": "The Epic of Gilgamesh (Tablet XI)",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "University of Pennsylvania Museum of Archaeology and Anthropology",
+      "dateOfObject": "~2100",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0676",
+      "numId": 676,
+      "filename": "S-0676-atrahasis-epic.md",
+      "title": "Atrahasis Epic",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Babylonian Museum",
+      "dateOfObject": "~1600",
+      "verifyAt": "https://www.britishmuseum.org/collection/object/W_BM-23224",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0673",
       "numId": 673,
