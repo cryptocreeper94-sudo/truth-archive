@@ -1,16 +1,35 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-21T04:55:16.650Z",
+  "generatedAt": "2026-11-21T10:55:19.008Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 190,
+    "claims": 191,
     "documented": 40,
-    "sources": 597,
-    "citedSources": 337,
+    "sources": 599,
+    "citedSources": 339,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0244",
+      "numId": 244,
+      "filename": "C-0244-lahaina-vs-other-disasters-coverage-comparison.md",
+      "title": "Lahaina Coverage vs Other Disasters of Similar Scale",
+      "domain": "Media Coverage",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0687",
+        "S-0688"
+      ],
+      "related": [
+        "C-0243"
+      ],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0242",
       "numId": 242,
@@ -3433,6 +3452,34 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0688",
+      "numId": 688,
+      "filename": "S-0688-archived-broadcast-transcripts.md",
+      "title": "Archived Broadcast Transcripts",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "Internet Archive",
+      "dateOfObject": "2023",
+      "verifyAt": "https://archive.org/web/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0687",
+      "numId": 687,
+      "filename": "S-0687-disaster-coverage-analysis-report.md",
+      "title": "Disaster Coverage Analysis Report",
+      "tier": "1",
+      "type": "institutional-record",
+      "holder": "Media Research Centre",
+      "dateOfObject": "2023",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0684",
       "numId": 684,
