@@ -1,16 +1,36 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-20T10:55:22.806Z",
+  "generatedAt": "2026-11-21T04:55:16.650Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 189,
+    "claims": 190,
     "documented": 40,
-    "sources": 595,
-    "citedSources": 335,
+    "sources": 597,
+    "citedSources": 337,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0242",
+      "numId": 242,
+      "filename": "C-0242-atmospheric-anomalies-historical-construction.md",
+      "title": "Atmospheric and Environmental Anomalies in Historical Construction Documentation",
+      "domain": "Photo Forensics",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0683",
+        "S-0684"
+      ],
+      "related": [
+        "C-0188",
+        "C-0198"
+      ],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0240",
       "numId": 240,
@@ -3413,6 +3433,34 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0684",
+      "numId": 684,
+      "filename": "S-0684-eiffel-tower-photos.md",
+      "title": "Eiffel Tower Construction Photos",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Library of Congress",
+      "dateOfObject": "1887-1889",
+      "verifyAt": "https://www.loc.gov/pictures/item/2005689251/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0683",
+      "numId": 683,
+      "filename": "S-0683-washington-monument-photos.md",
+      "title": "Washington Monument Construction Photos",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "National Archives",
+      "dateOfObject": "1848-1884",
+      "verifyAt": "https://www.archives.gov/research/photographs",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0680",
       "numId": 680,
