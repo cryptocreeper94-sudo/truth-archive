@@ -1,16 +1,67 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-21T10:55:19.008Z",
+  "generatedAt": "2026-11-22T04:55:31.874Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 191,
+    "claims": 194,
     "documented": 40,
-    "sources": 599,
-    "citedSources": 339,
+    "sources": 605,
+    "citedSources": 345,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0247",
+      "numId": 247,
+      "filename": "C-0247-thermite-residue-analysis.md",
+      "title": "Thermite Residue Analysis",
+      "domain": "Structural Analysis",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0693",
+        "S-0694"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0246",
+      "numId": 246,
+      "filename": "C-0246-pentagon-entry-hole-analysis.md",
+      "title": "Pentagon Entry Hole Analysis",
+      "domain": "Structural Analysis",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0691",
+        "S-0692"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0245",
+      "numId": 245,
+      "filename": "C-0245-wtc-freefall-analysis.md",
+      "title": "WTC 1/2/7 Freefall Analysis",
+      "domain": "Structural Analysis",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0689",
+        "S-0690"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0244",
       "numId": 244,
@@ -3452,6 +3503,90 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0694",
+      "numId": 694,
+      "filename": "S-0694-nist-ncstar1-5-report.md",
+      "title": "NIST NCSTAR 1-5 Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "NIST",
+      "dateOfObject": "2005",
+      "verifyAt": "https://www.nist.gov/ncstar1-5",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0693",
+      "numId": 693,
+      "filename": "S-0693-harrit-thermite-analysis.md",
+      "title": "Active Thermitic Material Discovered in Dust from the 9/11 World Trade Center Catastrophe",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Bentham Open",
+      "dateOfObject": "2009",
+      "verifyAt": "https://www.benthamopen.com/ABSTRACT/TOC-2010-1-1",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0692",
+      "numId": 692,
+      "filename": "S-0692-nist-ncstar1-1-report.md",
+      "title": "NIST NCSTAR 1-1 Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "NIST",
+      "dateOfObject": "2005",
+      "verifyAt": "https://www.nist.gov/wncstar1-1",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0691",
+      "numId": 691,
+      "filename": "S-0691-pentagon-building-performance-report.md",
+      "title": "Pentagon Building Performance Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "U.S. Department of Defense",
+      "dateOfObject": "2001",
+      "verifyAt": "https://www.defense.gov/Portals/1/Documents/pubs/PentagonReport.pdf",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0690",
+      "numId": 690,
+      "filename": "S-0690-hulsey-final-report-wtc7.md",
+      "title": "Final Report on the Collapse of World Trade Center Building 7",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "University of Alaska Fairbanks",
+      "dateOfObject": "2020",
+      "verifyAt": "https://www.uaf.edu/wtc7/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0689",
+      "numId": 689,
+      "filename": "S-0689-fema-bpat-report-appendix-c.md",
+      "title": "FEMA BPAT Report Appendix C",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "FEMA",
+      "dateOfObject": "2001",
+      "verifyAt": "https://www.fema.gov/media-library-data/20130726-1920-25045-1857/fema403.pdf",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0688",
       "numId": 688,
