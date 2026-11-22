@@ -1,16 +1,35 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-22T04:55:31.874Z",
+  "generatedAt": "2026-11-22T10:55:12.376Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 194,
+    "claims": 195,
     "documented": 40,
-    "sources": 605,
-    "citedSources": 345,
+    "sources": 607,
+    "citedSources": 347,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0248",
+      "numId": 248,
+      "filename": "C-0248-construction-timeline-photos-vs-claimed-technology.md",
+      "title": "Construction Timeline Photos vs Claimed Technology",
+      "domain": "Photo Forensics",
+      "confidence": "SPECULATIVE",
+      "verification": "blocked",
+      "verifiedOn": "",
+      "sources": [
+        "S-0695",
+        "S-0696"
+      ],
+      "related": [
+        "C-0227"
+      ],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0247",
       "numId": 247,
@@ -3503,6 +3522,34 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0696",
+      "numId": 696,
+      "filename": "S-0696-eiffel-tower-construction-photos.md",
+      "title": "Eiffel Tower Construction Photos",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Musée d'Orsay",
+      "dateOfObject": "1889",
+      "verifyAt": "https://www.musee-orsay.fr/en/collections/works-in-focus/search/commentaire_id/eiffel-tower-16057.html",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0695",
+      "numId": 695,
+      "filename": "S-0695-brooklyn-bridge-construction-photos.md",
+      "title": "Brooklyn Bridge Construction Photos",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Library of Congress",
+      "dateOfObject": "1883",
+      "verifyAt": "https://www.loc.gov/item/2003675763/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0694",
       "numId": 694,
