@@ -1,16 +1,67 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-22T10:55:12.376Z",
+  "generatedAt": "2026-11-24T10:55:36.760Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 195,
+    "claims": 198,
     "documented": 40,
-    "sources": 607,
-    "citedSources": 347,
+    "sources": 613,
+    "citedSources": 353,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0251",
+      "numId": 251,
+      "filename": "C-0251-antikythera-mechanism.md",
+      "title": "Antikythera Mechanism and Its Implications",
+      "domain": "Suppressed Finds",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0701",
+        "S-0702"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0250",
+      "numId": 250,
+      "filename": "C-0250-ica-stones.md",
+      "title": "Ica Stones and Their Historical Significance",
+      "domain": "Suppressed Finds",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0699",
+        "S-0700"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0249",
+      "numId": 249,
+      "filename": "C-0249-acamparo-figurines.md",
+      "title": "Acámbaro Figurines and Their Origins",
+      "domain": "Suppressed Finds",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0697",
+        "S-0698"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0248",
       "numId": 248,
@@ -3522,6 +3573,90 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0702",
+      "numId": 702,
+      "filename": "S-0702-report-on-antikythera-mechanism.md",
+      "title": "The Antikythera Mechanism: A New Perspective",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "University of Athens",
+      "dateOfObject": "2015",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0701",
+      "numId": 701,
+      "filename": "S-0701-antikythera-mechanism-collection.md",
+      "title": "Antikythera Mechanism Collection",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "National Archaeological Museum of Athens",
+      "dateOfObject": "~1900",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0700",
+      "numId": 700,
+      "filename": "S-0700-report-on-ica-stones.md",
+      "title": "The Ica Stones: A Review of Their Claims and Context",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Universidad Nacional San Luis Gonzaga de Ica",
+      "dateOfObject": "2010",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0699",
+      "numId": 699,
+      "filename": "S-0699-ica-stones-collection.md",
+      "title": "Ica Stones Collection",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "Museo Regional de Ica",
+      "dateOfObject": "~1990",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0698",
+      "numId": 698,
+      "filename": "S-0698-report-on-acamparo-figurines.md",
+      "title": "Report on the Acámbaro Figurines",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Universidad de Guanajuato",
+      "dateOfObject": "2005",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0697",
+      "numId": 697,
+      "filename": "S-0697-acamparo-figurines-collection.md",
+      "title": "Acámbaro Figurines Collection",
+      "tier": "1",
+      "type": "archaeological-survey",
+      "holder": "Museo de las Momias de Guanajuato",
+      "dateOfObject": "~1940",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0696",
       "numId": 696,
