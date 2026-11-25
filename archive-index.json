@@ -1,16 +1,67 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-24T10:55:36.760Z",
+  "generatedAt": "2026-11-25T04:55:28.588Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 198,
-    "documented": 40,
-    "sources": 613,
-    "citedSources": 353,
+    "claims": 201,
+    "documented": 42,
+    "sources": 619,
+    "citedSources": 359,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0254",
+      "numId": 254,
+      "filename": "C-0254-babel-linguistic-diversification.md",
+      "title": "Linguistic Diversification and the Tower of Babel Narrative",
+      "domain": "Etymology",
+      "confidence": "DOCUMENTED",
+      "verification": "verified",
+      "verifiedOn": "2026-11-25",
+      "sources": [
+        "S-0707",
+        "S-0708"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0253",
+      "numId": 253,
+      "filename": "C-0253-assyria-asshur-connection.md",
+      "title": "Assyria and Asshur: Etymological Connections",
+      "domain": "Etymology",
+      "confidence": "DOCUMENTED",
+      "verification": "verified",
+      "verifiedOn": "2026-11-25",
+      "sources": [
+        "S-0705",
+        "S-0706"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0252",
+      "numId": 252,
+      "filename": "C-0252-hebrew-name-meanings.md",
+      "title": "Hebrew Name Meanings and Etymology",
+      "domain": "Etymology",
+      "confidence": "SPECULATIVE",
+      "verification": "unverifiable",
+      "verifiedOn": "",
+      "sources": [
+        "S-0703",
+        "S-0704"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0251",
       "numId": 251,
@@ -3573,6 +3624,90 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0708",
+      "numId": 708,
+      "filename": "S-0708-language-power-introduction.md",
+      "title": "Language and Power: An Introduction to Language Politics",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "British Library",
+      "dateOfObject": "2006",
+      "verifyAt": "https://www.bl.uk",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0707",
+      "numId": 707,
+      "filename": "S-0707-bible-ancient-near-east.md",
+      "title": "The Bible and the Ancient Near East",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "University of Pennsylvania",
+      "dateOfObject": "1997",
+      "verifyAt": "https://www.upenn.edu",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0706",
+      "numId": 706,
+      "filename": "S-0706-history-ancient-near-eastern-law.md",
+      "title": "A History of Ancient Near Eastern Law",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Yale University",
+      "dateOfObject": "2003",
+      "verifyAt": "https://library.yale.edu",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0705",
+      "numId": 705,
+      "filename": "S-0705-assyrian-dictionary.md",
+      "title": "The Assyrian Dictionary of the Oriental Institute of the University of Chicago",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "University of Chicago",
+      "dateOfObject": "1956",
+      "verifyAt": "https://oi.uchicago.edu",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0704",
+      "numId": 704,
+      "filename": "S-0704-dictionary-old-testament.md",
+      "title": "A Dictionary of the Old Testament: Historical Books",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "Harvard University",
+      "dateOfObject": "2005",
+      "verifyAt": "https://library.harvard.edu",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0703",
+      "numId": 703,
+      "filename": "S-0703-jewish-encyclopedia.md",
+      "title": "The Jewish Encyclopedia",
+      "tier": "1",
+      "type": "manuscript",
+      "holder": "New York Public Library",
+      "dateOfObject": "1906",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0702",
       "numId": 702,
