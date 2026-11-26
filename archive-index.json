@@ -1,16 +1,32 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-25T04:55:28.588Z",
+  "generatedAt": "2026-11-26T16:55:14.918Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 201,
+    "claims": 202,
     "documented": 42,
-    "sources": 619,
-    "citedSources": 359,
+    "sources": 620,
+    "citedSources": 360,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0255",
+      "numId": 255,
+      "filename": "C-0255-stratospheric-aerosol-injection-patent-references.md",
+      "title": "Stratospheric Aerosol Injection Patent References",
+      "domain": "Environmental",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0709"
+      ],
+      "related": [],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0254",
       "numId": 254,
@@ -3624,6 +3640,20 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0709",
+      "numId": 709,
+      "filename": "S-0709-stratospheric-aerosol-injection-patent.md",
+      "title": "US Patent 5003186 - Method for Altering Atmospheric Conditions",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "United States Patent and Trademark Office",
+      "dateOfObject": "1991",
+      "verifyAt": "https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=5003186.PN.&OS=PN/5003186&RS=PN/5003186",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0708",
       "numId": 708,
