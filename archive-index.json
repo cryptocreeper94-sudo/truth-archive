@@ -1,16 +1,73 @@
 {
   "schema": "truth-archive-index-v1",
-  "generatedAt": "2026-11-27T04:55:44.087Z",
+  "generatedAt": "2026-11-28T10:55:41.124Z",
   "generatorVersion": "0.5.0",
   "counts": {
-    "claims": 205,
+    "claims": 208,
     "documented": 42,
-    "sources": 626,
-    "citedSources": 366,
+    "sources": 632,
+    "citedSources": 372,
     "digs": 15,
     "links": 0
   },
   "claims": [
+    {
+      "id": "C-0261",
+      "numId": 261,
+      "filename": "C-0261-thermite-residue-analysis.md",
+      "title": "Thermite Residue Analysis",
+      "domain": "Structural Analysis",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0720",
+        "S-0721"
+      ],
+      "related": [
+        "C-0258"
+      ],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0260",
+      "numId": 260,
+      "filename": "C-0260-pentagon-entry-hole-analysis.md",
+      "title": "Pentagon Entry Hole Analysis",
+      "domain": "Structural Analysis",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0718",
+        "S-0719"
+      ],
+      "related": [
+        "C-0258"
+      ],
+      "dig": "",
+      "status": "active"
+    },
+    {
+      "id": "C-0259",
+      "numId": 259,
+      "filename": "C-0259-wtc7-freefall-analysis.md",
+      "title": "WTC 7 Freefall Analysis",
+      "domain": "Structural Analysis",
+      "confidence": "SPECULATIVE",
+      "verification": "failed",
+      "verifiedOn": "",
+      "sources": [
+        "S-0716",
+        "S-0717"
+      ],
+      "related": [
+        "C-0258"
+      ],
+      "dig": "",
+      "status": "active"
+    },
     {
       "id": "C-0258",
       "numId": 258,
@@ -3691,6 +3748,90 @@
     }
   ],
   "sources": [
+    {
+      "id": "S-0721",
+      "numId": 721,
+      "filename": "S-0721-nist-ncstar-1a.md",
+      "title": "NIST NCSTAR 1A",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "National Institute of Standards and Technology (NIST)",
+      "dateOfObject": "2005",
+      "verifyAt": "https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/nist.ncstar.1A.pdf",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0720",
+      "numId": 720,
+      "filename": "S-0720-harrit-thermite-study.md",
+      "title": "Harrit Thermite Study",
+      "tier": "1",
+      "type": "journal-article",
+      "holder": "Bentham Science Publishers",
+      "dateOfObject": "2009",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0719",
+      "numId": 719,
+      "filename": "S-0719-asce-pentagon-report.md",
+      "title": "ASCE Pentagon Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "American Society of Civil Engineers (ASCE)",
+      "dateOfObject": "2001",
+      "verifyAt": "",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0718",
+      "numId": 718,
+      "filename": "S-0718-nist-pentagon-report.md",
+      "title": "NIST Pentagon Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "National Institute of Standards and Technology (NIST)",
+      "dateOfObject": "2004",
+      "verifyAt": "https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/nist.ncstar.1-3.pdf",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0717",
+      "numId": 717,
+      "filename": "S-0717-hulsey-report.md",
+      "title": "Hulsey Report on WTC 7",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "University of Alaska Fairbanks",
+      "dateOfObject": "2020",
+      "verifyAt": "https://www.uaf.edu/wtc7/",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
+    {
+      "id": "S-0716",
+      "numId": 716,
+      "filename": "S-0716-fema-bpat-report.md",
+      "title": "FEMA BPAT Report",
+      "tier": "1",
+      "type": "government-record",
+      "holder": "National Institute of Standards and Technology (NIST)",
+      "dateOfObject": "2002",
+      "verifyAt": "https://www.nist.gov/news-events/news/2002-06/fema-releases-report-world-trade-center-disaster",
+      "imageUrl": "",
+      "externalRefs": [],
+      "cited": true
+    },
     {
       "id": "S-0715",
       "numId": 715,
